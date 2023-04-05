@@ -1,0 +1,58 @@
+.header {
+  position: relative;
+  background-color: #2f303a;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    //tablet screen 768px//
+    @media screen and (min-width: 768px) {
+      max-width: 768px;
+    }
+
+    //decktop screen 1200px//
+    @media screen and (min-width: 1200px) {
+      max-width: 1400px;
+    }
+  }
+
+  &__manager-name {
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: $logo-first-part;
+  }
+}
+.container {
+  //mobile screen 0 - 480px
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  //tablet screen 768px//
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  //decktop screen 1200px//
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.clock {
+  font-weight: 700;
+  font-size: 26px;
+}

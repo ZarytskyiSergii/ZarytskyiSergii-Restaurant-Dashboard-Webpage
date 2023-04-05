@@ -1,0 +1,92 @@
+.hero {
+    display: flex;
+    flex-grow: 1;
+    padding: 80px 0px 80px 0px;
+    max-width: 1600px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #2f303a;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/stock-photo-laid-table-restaurant-candles-flowers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+
+    &__button {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+        color: #ffffff;
+        background-color: $button-main-color;
+        padding: 10px 32px;
+        border-radius: 4px;
+        border-style: none;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__button:hover,
+    &__button:focus {
+        background-color: $button-focused-color;
+    }
+}
+
+.restaurant-list{
+    display: block;
+    // height: 200px;
+    border: 1px solid black;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.custom-scroll {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    background-color:none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.custom-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-scroll {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+.searchField{
+    display: block;
+    width: 100%;
+    background-color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        color: rgb(255, 255, 255);
+        margin-bottom: 50px;
+}
+
+.searchField__mail{
+    margin-bottom: 15px;
+}
+
+.selected {
+    color: red;
+}

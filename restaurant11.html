@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Information panel</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <div class="header__container header__container_2">
+          <p class="header__manager-name">Manager name</p>
+          <div class="clock" id="clock"></div>
+        </div>
+                <a class="social-media__title backLink" href="index.html">Back to main</a>
+
+      </header>
+      <main>
+        <section class="hero_2">
+          <div class="container">
+            <h1 class="restaurant">Restaurant#11</h1>
+            <ul class="restaurant__list">
+              <li class="header__item" data-restaurant="1">
+                <h2 class="adress">Address:</h2>
+                <p class="adress__item">Pl. de l'Europe 8a, 1003 Lausanne, Switzerland</p>
+              </li>
+              <li class="header__item" data-restaurant="1">
+                <h2 class="workingHourse">Working hours:</h2>
+                <ul class="workingDays">
+                  <li class="workingDays__item">Monday 11:00 - 24:00</li>
+                  <li class="workingDays__item">Tuesday 11:00 - 24:00</li>
+                  <li class="workingDays__item">Wednesday 11:00 - 24:00</li>
+                  <li class="workingDays__item">Thursday 11:00 - 24:00</li>
+                  <li class="workingDays__item">Friday 11:00 - 24:00</li>
+                  <li class="workingDays__item">Saturday 11:00 - 24:00</li>
+                  <li class="workingDays__item">Sunday 11:00 - 24:00</li>
+                </ul>
+              </li>
+              <li class="header__item" data-restaurant="1">
+                <h2 class="workingHourse">Vacant Seats: <span id="vacantSeats"></span></h2>
+              </li>
+              <li class="header__item" data-restaurant="1">
+                <button type="button" class="hero_2__button" href="#">Reserve</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__address-box">
+            <a class="footer__office" target="_blank" href="https://atmosclear.investments"
+              >AtmosClear</a
+            >
+            <address>
+              <ul class="address">
+                <li class="address__item">
+                  <a
+                    href="https://goo.gl/maps/3gMH6z9bhtYFChMi7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="address__map"
+                  >
+                    <span>Place de l’Europe 8a Lausanne 1003</span>
+                  </a>
+                </li>
+                <li class="address__item">
+                  <a href="mailto:info@atmosclear.com" class="address__contact"
+                    >info@atmosclear.com</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a href="tel:+41219061000" class="address__contact">+41 21 906 1000</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="social-media">
+            <h3 class="social-media__title">We are on social media</h3>
+            <ul class="social-list social-media__social-list">
+              <li class="social-list__item">
+                <a
+                  href="https://www.instagram.com"
+                  class="social-list__link link social-list__link--footer"
+                  ><svg class="social-list__icon social-list__icon--footer" width="20" height="20">
+                    <use href="./images/svg/icon.svg#instagram"></use></svg
+                ></a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  href="https://twitter.com/?lang=uk"
+                  class="social-list__link link social-list__link--footer"
+                  ><svg class="social-list__icon social-list__icon--footer" width="20" height="20">
+                    <use href="./images//svg/icon.svg#twitter"></use></svg
+                ></a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  href="https://uk-ua.facebook.com"
+                  class="social-list__link link social-list__link--footer"
+                  ><svg class="social-list__icon social-list__icon--footer" width="20" height="20">
+                    <use href="./images/svg/icon.svg#facebook"></use></svg
+                ></a>
+              </li>
+              <li class="social-list__item">
+                <a
+                  href="https://www.linkedin.com"
+                  class="social-list__link link social-list__link--footer"
+                  ><svg class="social-list__icon social-list__icon--footer" width="20" height="20">
+                    <use href="./images/svg/icon.svg#linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./clock.js"></script>
+    <script src="./autorization_2.js"></script>
+    <script src="./vacantSeats.js"></script>
+  </body>
+</html>
