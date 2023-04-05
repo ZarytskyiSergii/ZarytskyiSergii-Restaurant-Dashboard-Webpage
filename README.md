@@ -8,5 +8,3 @@ I have implemented all the functionality described and added some features that 
 I also tested the web application with the built-in Lighthouse tool and got quite high marks (I'm attaching the screenshot);
  - made an adaptive markup for correct display on devices of different sizes
 I hope this is enough to pass this test.
-
-Translated with www.DeepL.com/Translator (free version)
