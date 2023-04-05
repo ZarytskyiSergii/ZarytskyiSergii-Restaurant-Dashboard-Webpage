@@ -7,5 +7,6 @@ I have implemented all the functionality described and added some features that 
  - I added a favicon for beauty;
 I also tested the web application with the built-in Lighthouse tool and got quite high marks (I'm attaching the screenshot);
  - made an adaptive markup for correct display on devices of different sizes
-I hope this is enough to pass this test.
+I hope this is enough to pass this test
+
 
